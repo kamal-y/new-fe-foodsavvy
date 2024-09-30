@@ -1,0 +1,21 @@
+.verify {
+    display: flex;                /* Use flexbox for layout */
+    flex-direction: column;       /* Arrange items in a column */
+    align-items: center;          /* Center items horizontally */
+    justify-content: center;      /* Center items vertically */
+    height: 100vh;                /* Take full height of the viewport */
+    background-color: #f9fafb;   /* Light background color */
+}
+
+.verify img {
+    width: 30%;                   /* Set image width to 30% of the parent */
+    height: auto;                 /* Maintain aspect ratio */
+    margin-bottom: 1rem;          /* Add space below the image */
+}
+
+.verify h2 {
+    font-size: 1.25rem;           /* Medium font size */
+    font-weight: 500;             /* Medium font weight */
+    text-align: center;           /* Center the text */
+    color: #333;                  /* Text color */
+}

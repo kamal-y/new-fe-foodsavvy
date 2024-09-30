@@ -1,0 +1,60 @@
+/* ContactForm.css */
+
+.contact-us {
+    width: 100%;
+    max-width: 32rem; /* max width of 32rem (approx. 512px) */
+    margin: 0 auto;   /* center the container */
+    padding: 2rem;    /* padding */
+    background-color: white; /* background color */
+    border-radius: 0.5rem;  /* rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow effect */
+}
+
+.contact-us h2 {
+    font-size: 1.875rem;  /* 3xl */
+    font-weight: 600;     /* semi-bold */
+    text-align: center;   /* center text */
+    margin-bottom: 2rem;  /* margin below */
+    color: #4a5568;       /* gray-800 */
+}
+
+.contact-us label {
+    display: block;          /* block layout */
+    font-size: 0.875rem;    /* text-sm */
+    font-weight: 500;       /* medium */
+    color: #4a5568;         /* gray-700 */
+    margin-bottom: 0.5rem;  /* margin below */
+}
+
+.contact-us input,
+.contact-us select,
+.contact-us textarea {
+    width: 100%;           /* full width */
+    height: 3rem;         /* height */
+    padding: 0.75rem;     /* padding */
+    border: 1px solid #d1d5db; /* border color */
+    border-radius: 0.5rem; /* rounded corners */
+    transition: all 0.2s;  /* transition for effects */
+}
+
+.contact-us input:focus,
+.contact-us select:focus,
+.contact-us textarea:focus {
+    outline: none;                     /* remove outline */
+    ring: 2px solid #4c51bf;          /* focus ring */
+    border-color: #4c51bf;            /* border color on focus */
+}
+
+.contact-us button {
+    width: 100%;                  /* full width */
+    padding: 0.75rem;            /* padding */
+    background-color: #4c51bf;   /* indigo background */
+    color: white;                /* white text */
+    font-weight: 600;            /* semi-bold */
+    border-radius: 0.5rem;       /* rounded corners */
+    transition: background-color 0.2s; /* transition effect */
+}
+
+.contact-us button:hover {
+    background-color: #5a67d8; /* darker indigo on hover */
+}
